@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --color-mocha-deep: #55463E;
+  --color-taupe-warm: #75645A;
+  --color-mushroom-soft: #A99A8D;
+  --color-champagne: #D4C2AD;
+  --color-dusty-blush: #D6AAA4;
+  --color-ivory-warm: #F8F4EE;
+  --color-cream-white: #FFFCF8;
+  --color-marble-gray: #E9E3DC;
+  --color-espresso: #302722;
+  --color-muted-taupe: #82766E;
+  --color-delicate-border: #E5DCD3;
+
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-script: 'Alex Brush', cursive, sans-serif;
+}
+
+:root {
+  --bg-main: #F8F4EE;
+  --text-primary: #302722;
+  --text-muted: #82766E;
+  --border-delicate: #E5DCD3;
+  --accent-blush: #D6AAA4;
+  --accent-mocha: #55463E;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+}
+
+/* Custom luxury scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F8F4EE;
+}
+::-webkit-scrollbar-thumb {
+  background: #D4C2AD;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A99A8D;
+}
+
+/* Clean image rendering and graceful fallback styles */
+img {
+  text-indent: -10000px;
+}

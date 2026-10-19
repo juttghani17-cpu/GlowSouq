@@ -1,0 +1,8 @@
+{
+  "name": "Remix MAISON BLUSH | Luxury Fashion \u0026 Beauty Boutique",
+  "description": "Discover thoughtfully curated luxury fashion, botanical beauty, and timeless accessories designed for understated elegance and intentional living.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
